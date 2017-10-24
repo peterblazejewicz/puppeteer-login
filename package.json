@@ -1,0 +1,18 @@
+{
+  "name": "puppeteer-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/peterblazejewicz/puppeteer-login.git",
+  "author": "Peter Blazejewicz <peter.blazejewicz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dotenv": "^4.0.1",
+    "@types/node": "^8.0.46",
+    "@types/puppeteer": "^0.12.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "puppeteer": "^0.12.0"
+  }
+}
