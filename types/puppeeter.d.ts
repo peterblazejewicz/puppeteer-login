@@ -170,6 +170,12 @@ declare module "puppeteer" {
     hover(): Promise<void>;
     tap(): Promise<void>;
     uploadFile(...filePaths: string[]): Promise<void>;
+    boundingBox(): Promise<{
+      x: number;
+      y: number;
+      width: number;
+      height: number;
+    }>
   }
 
   export type Headers = Record<string, string>;
