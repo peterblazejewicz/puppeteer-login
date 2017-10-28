@@ -62,3 +62,4 @@ typings/
 
 # transpiled files
 **/*.js
+!processors/*.js
