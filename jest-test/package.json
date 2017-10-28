@@ -20,19 +20,20 @@
     "jest": "^21.2.1",
     "json5": "^0.5.1",
     "rimraf": "^2.6.2",
+    "ts-jest": "^21.1.4",
     "typescript": "^2.5.3"
   },
   "jest": {
     "moduleFileExtensions": [
       "ts",
       "tsx",
-      "js"
+      "js",
+      "jsx",
+      "json"
     ],
     "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/processors/typescript.js"
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testMatch": [
-      "**/__tests__/*.(ts|tsx|js)"
-    ]
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
   }
 }
