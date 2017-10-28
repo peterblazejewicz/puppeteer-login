@@ -19,4 +19,5 @@ import selectors from './selectors';
     clip: clip,
   });
   await page.close();
+  await browser.close();
 })();
