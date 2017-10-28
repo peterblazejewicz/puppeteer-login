@@ -63,3 +63,6 @@ typings/
 # transpiled files
 **/*.js
 !processors/*.js
+# screenshots
+**/*.jpg
+**/*.png
